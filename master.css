@@ -9,7 +9,7 @@ body{
 }
 /*contenitore per centrare le sezioni*/
 .cont-center{
-  width:90%;
+  width:94%;
   margin:0 auto;
   /*border:solid 1px red;*/
 }
@@ -22,16 +22,16 @@ body{
 }
 /*contenitore colonne*/
 .col{
-  height: 100px;
-  background-color:red; 
-  width:45%;
+
+  width:49%;
   float: left;
+
 }
 a{
   text-decoration: none;
 }
 .row .col.two:first-child{
-  margin-right:10%;
+  margin-right:2%;
 }
 /*header*/
 header{
@@ -57,41 +57,86 @@ section.conmargine{
 /*sezione 3 tre colonne*/
 .row .col.tree{
 width:calc(80%/2);
-border:solid 1px black;
-box-sizing: border-box;
 }
 .row .col.tree.centro{
   width:20%;
-  background-color: green;
+  background-color:green;
+
 }
 /*sezione 4 una colonna*/
 .monopattino{
   background-image:url("sfondomonopattino.jpg");
   background-size:cover;
+
 }
 .colmonopattino{
   float: right;
-  width:45%;
+  width:46%;
   padding:150px 0;
 }
 .row .colmonopattino h2{
   font-size:3em;
   color:white;
-  padding-bottom:30px;
-  box-sizing: border-box;
 }
-.row .colmonopattino p,a{
+.row .colmonopattino p{
   font-size:1.5em;
   color:white;
-  padding-bottom:30px;
-  box-sizing: border-box;
 }
+.row .colmonopattino a{
+  font-size:1.5em;
+  color:white;
+}
+
 /*sezione 5*/
+.telefono.sinistra{
+  background-color:rgb(55, 72, 89);
+}
+.telefono.sinistra.sfondo{
+  background-image:url("telefonosezione5.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size:80%;
+}
+.row .col.two.telefono  {
+  color:white;
+  text-align: center;
+  padding-top:50px;
+  padding-bottom:400px;
+  box-sizing: border-box;
+
+}
+.telefono p{
+  font-size:1.5em;
+  padding-bottom:30px;
+}
+.telefono h2{
+  font-size: 3em;
+  padding-bottom:30px;
+}
+.telefono a{
+  font-size:1.3em;
+  padding-bottom:30px;
+  color:white;
+  padding-left:25px;
+}
+
+.telefono.destra{
+  background-image: url("cittasezione5.jpg");
+  background-size: cover;
+}
+
+
 
 /*sezione 6*/
-.mod{
-  width:98%;
+.sezione6{
+  width:98.5%;
+  padding:200px 0;
+  background-image: url("sfondosezione6.jpg");
+  background-size:cover;
 }
+
+
 /*footer*/
 footer{
   height: 100px;
