@@ -30,6 +30,9 @@ body{
 a{
   text-decoration: none;
 }
+a:hover{
+  text-decoration: underline;
+}
 .row .col.two:first-child{
   margin-right:2%;
 }
@@ -50,7 +53,40 @@ section.conmargine{
 
 /*sezione 1 due colonne*/
 
+.sezione1{
+  padding:50px 0;
+  background-color:rgb(250, 250, 250);
+  text-align: center;
+}
+.sezione1 img{
+  position: static;
+  width:30%;
+  height:400px;
+  padding-left:35%;
+  padding-right:35%;
+  padding-top:50px;
 
+}
+.sezione1 a{
+ color:blue;
+}
+/*faccio una modifica a h2 per piacere personale*/
+ .sezione1 span{
+  font-size:2em;
+  font-family:fantasy;
+}
+.sezione1 h2{
+  font-size:1.5em;
+  display: inline;
+}
+.sezione1 p{
+  font-size:1.3em;
+  padding-top: 30px;
+  padding-bottom:20px;
+}
+.sezione1 a{
+  font-size:1.3em;
+}
 /*sezione 2*/
 
 
