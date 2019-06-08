@@ -4,19 +4,34 @@
   margin:0;
   padding:0;
 }
+body{
+  font-size:17px;
+}
 /*contenitore per centrare le sezioni*/
 .cont-center{
   width:90%;
   margin:0 auto;
-  border:solid 1px red;
+  /*border:solid 1px red;*/
 }
-.mod{
-  width:98%;
-}/*contenitore colonne in float*/
+
+/*contenitore colonne in float*/
 .row::after{
   content: "";
   display: table;
   clear: both;
+}
+/*contenitore colonne*/
+.col{
+  height: 100px;
+  background-color:red; 
+  width:45%;
+  float: left;
+}
+a{
+  text-decoration: none;
+}
+.row .col.two:first-child{
+  margin-right:10%;
 }
 /*header*/
 header{
@@ -25,22 +40,21 @@ header{
 }
 /*main*/
 section{
-  height:100px;
-  background-color:gray;
-  border:solid 1px black;
+  /*background-color:gray;
+  border:solid 1px black;*/
 }
 section.conmargine{
   margin:2% 0;
 }
-.col{
-  height:100px;
-  width:45%;
-  background-color:black;
-  float: left;
-}
-.row .col.two:first-child{
-  margin-right:10%;
-}
+/*sezione 0*/
+
+/*sezione 1 due colonne*/
+
+
+/*sezione 2*/
+
+
+/*sezione 3 tre colonne*/
 .row .col.tree{
 width:calc(80%/2);
 border:solid 1px black;
@@ -50,10 +64,34 @@ box-sizing: border-box;
   width:20%;
   background-color: green;
 }
-.row .col.one{
-  float: right;
+/*sezione 4 una colonna*/
+.monopattino{
+  background-image:url("sfondomonopattino.jpg");
+  background-size:cover;
 }
+.colmonopattino{
+  float: right;
+  width:45%;
+  padding:150px 0;
+}
+.row .colmonopattino h2{
+  font-size:3em;
+  color:white;
+  padding-bottom:30px;
+  box-sizing: border-box;
+}
+.row .colmonopattino p,a{
+  font-size:1.5em;
+  color:white;
+  padding-bottom:30px;
+  box-sizing: border-box;
+}
+/*sezione 5*/
 
+/*sezione 6*/
+.mod{
+  width:98%;
+}
 /*footer*/
 footer{
   height: 100px;
