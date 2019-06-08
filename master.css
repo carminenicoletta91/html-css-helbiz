@@ -3,6 +3,15 @@
   margin:0;
   padding:0;
 }
+/*contenitore per centrare le sezioni*/
+.cont-center{
+  width:90%;
+  margin:0 auto;
+  border:solid 1px red;
+}
+.mod{
+  width:98%; 
+}
 /*header*/
 header{
   height:100px;
