@@ -7,11 +7,12 @@
 body{
   font-size:17px;
 }
+
 /*contenitore per centrare le sezioni*/
 .cont-center{
   width:94%;
   margin:0 auto;
-  /*border:solid 1px red;*/
+
 }
 
 /*contenitore colonne in float*/
@@ -34,11 +35,43 @@ a:hover{
 .row .col.two:first-child{
   margin-right:2%;
 }
-/*header
-header{
-  height:100px;
-  background-color:yellow;
-}*/
+/*header*/
+.box-fixed{
+  width:100%;
+  position: fixed;
+  top:0;
+  background-color:white;
+  z-index:1;
+}
+.col.header.uno{
+  width:15%;
+  margin-right:15%;
+  padding:5px 0;
+}
+.col.header.due{
+width: 70%;
+}
+.col.header.uno img{
+  height:50px;
+  width:50%;
+  padding-top:5px
+}
+.box-fixed .cont-center{
+  width:80%;
+  margin:0 auto;
+}
+li{
+  list-style: none;
+  float: left;
+  padding-left:30px;
+  padding-top:20px;
+}
+.col.header.due .row a{
+  color: black;
+}
+.col.header.due .row a:hover{
+  text-decoration:none;
+}
 /*main*/
 
 section.conmargine{
@@ -146,14 +179,19 @@ section.conmargine{
 .row .colmonopattino h2{
   font-size:3em;
   color:white;
+  padding:0 50px;
 }
 .row .colmonopattino p{
   font-size:1.5em;
   color:white;
+  padding:0 50px;
+
 }
 .row .colmonopattino a{
   font-size:1.5em;
   color:white;
+  padding:0 50px;
+
 }
 
 /*sezione 5*/
@@ -248,4 +286,7 @@ footer{
 }
 .divided.mod1 img{
   padding-left:25px;
+}
+.col.sotto img{
+  padding-left:50px;
 }
