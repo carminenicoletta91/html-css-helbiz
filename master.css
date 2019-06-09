@@ -22,10 +22,8 @@ body{
 }
 /*contenitore colonne*/
 .col{
-
   width:49%;
   float: left;
-
 }
 a{
   text-decoration: none;
@@ -42,10 +40,7 @@ header{
   background-color:yellow;
 }*/
 /*main*/
-section{
-  /*background-color:gray;
-  border:solid 1px black;*/
-}
+
 section.conmargine{
   margin:2% 0;
 }
@@ -57,12 +52,10 @@ section.conmargine{
   background-size: cover;
   text-align: center;
   color:white;
-    box-sizing: border-box;
 }
 .sottoheader h2{
   padding-bottom:15px;
   font-size:3em;
-
 }
 .sottoheader p{
   padding-bottom:25px;
@@ -76,16 +69,15 @@ section.conmargine{
   box-sizing: border-box;
 }
 .sezione1 img{
-  position: static;
-  width:30%;
-  height:400px;
+  max-width:30%;
+  max-height:400px;
   padding-left:35%;
   padding-right:35%;
   padding-top:50px;
-
 }
 .sezione1 a{
  color:blue;
+ font-size:1.3em;
 }
 /*faccio una modifica a h2 per piacere personale*/
  .sezione1 span{
@@ -101,26 +93,50 @@ section.conmargine{
   padding-top: 30px;
   padding-bottom:20px;
 }
-.sezione1 a{
-  font-size:1.3em;
+/*sezione 2 e sezione 3*/
+.etàavanzata{
+  position:relative;
 }
-/*sezione 2*/
-
+.sezionesopra{
+  background-image: url("sfondosezione2.jpg");
+  background-size:cover;
+  padding-top:250px;
+  padding-bottom:250px;
+  transform: translate(-50 -50);
+}
+.sezionesotto{
+  padding-top:50px;
+  padding-bottom:150px;
+}
 
 /*sezione 3 tre colonne*/
+.sfondo{
+  background-color:white;
+}
 .row .col.tree{
-width:calc(80%/2);
+  width:calc(75%/2);
+  text-align: center;
 }
 .row .col.tree.centro{
-  width:20%;
-  background-color:green;
-
+  width:25%;
+  height:1px;
 }
+.row .col.tree.centro img{
+  max width:25%;
+  height:600px;
+  bottom:0;
+  left:40%;
+  right:40%;
+  transform: translate(-50% -50%);
+  position: absolute;
+}
+
+
+
 /*sezione 4 una colonna*/
 .monopattino{
   background-image:url("sfondomonopattino.jpg");
   background-size:cover;
-
 }
 .colmonopattino{
   float: right;
@@ -141,17 +157,17 @@ width:calc(80%/2);
 }
 
 /*sezione 5*/
-.telefono.sinistra{
+.sezione5 {
   background-color:rgb(55, 72, 89);
 }
-.telefono.sinistra.sfondo{
+ .sinistra{
   background-image:url("telefonosezione5.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
   background-size:80%;
 }
-.row .col.two.telefono  {
+.row .col.two.sezione5{
   color:white;
   text-align: center;
   padding-top:50px;
@@ -159,22 +175,22 @@ width:calc(80%/2);
   box-sizing: border-box;
 
 }
-.telefono p{
+.sezione5 p{
   font-size:1.5em;
   padding-bottom:30px;
 }
-.telefono h2{
+.sezione5 h2{
   font-size: 3em;
   padding-bottom:30px;
 }
-.telefono a{
+.sezione5 a{
   font-size:1.3em;
   padding-bottom:30px;
   color:white;
   padding-left:25px;
 }
 
-.telefono.destra{
+.sezione5.destra{
   background-image: url("cittasezione5.jpg");
   background-size: cover;
 }
