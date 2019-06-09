@@ -235,9 +235,19 @@ section.conmargine{
 /*sezione 6*/
 .sezione6{
   width:98.5%;
-  padding:200px 0;
+  padding:150px 0;
   background-image: url("sfondosezione6.jpg");
   background-size:cover;
+  z-index:0;
+}
+.blocco{
+
+  width:400px;
+  height:100px;
+  background-color:white;
+  margin-left:40%;
+  text-align: center;
+  padding-top:50px;
 }
 
 /*footer*/
